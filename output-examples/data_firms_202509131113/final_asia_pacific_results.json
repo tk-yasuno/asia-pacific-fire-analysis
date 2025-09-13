@@ -1,0 +1,742 @@
+{
+  "analysis_info": {
+    "region": "Asia-Pacific",
+    "area_coverage": {
+      "south": -50.0,
+      "north": 50.0,
+      "west": 70.0,
+      "east": 180.0
+    },
+    "timestamp": "2025-09-13T11:15:15.042267",
+    "total_samples": 15000
+  },
+  "clustering_result": "ClusteringResult(method='FAISS k-means', labels=array([0, 3, 1, ..., 3, 4, 3], shape=(15000,)), centroids=array([[ 0.02108848, -0.02783661,  0.00791488, ...,  0.01544388,\n        -0.12223411, -0.01020358],\n       [ 0.02586858, -0.02812524,  0.0066551 , ...,  0.01410217,\n        -0.12097044, -0.007265  ],\n       [ 0.02323046, -0.02500528,  0.00698515, ...,  0.0164206 ,\n        -0.1225983 , -0.00944184],\n       ...,\n       [ 0.03326905, -0.03489879,  0.00982616, ...,  0.01606018,\n        -0.11609951, -0.00498217],\n       [ 0.03524425, -0.02738132,  0.00513652, ...,  0.01755122,\n        -0.11877256, -0.00803079],\n       [ 0.03542439, -0.03201576,  0.01589458, ...,  0.01137804,\n        -0.12160116, -0.00545475]], shape=(8, 384), dtype=float32), metrics=ClusteringQualityMetrics(method='FAISS k-means', n_clusters=8, n_noise=0, silhouette_score=0.0603647418320179, calinski_harabasz_score=763.2245483398438, davies_bouldin_score=2.917266364508631, processing_time=0.06568622589111328, noise_ratio=0.0, cluster_sizes=[2435, 3468, 1924, 2051, 1714, 1696, 581, 1131], quality_score=np.float64(0.7104774778504275)), probabilities=None, hierarchy=None)",
+  "cluster_feature_analysis": {
+    "geographic_analysis": {
+      "cluster_0": {
+        "centroid": {
+          "latitude": -15.702842887063651,
+          "longitude": 134.99225787268995
+        },
+        "bounds": {
+          "lat_min": -43.79615,
+          "lat_max": 45.39801,
+          "lon_min": 76.67752,
+          "lon_max": 179.04266
+        },
+        "spread": {
+          "lat_std": 8.565873252276395,
+          "lon_std": 12.007466295590861
+        },
+        "size": 2435,
+        "density": 0.26669229025506186,
+        "primary_region": "Australia"
+      },
+      "cluster_3": {
+        "centroid": {
+          "latitude": -16.311984612384204,
+          "longitude": 129.74456117991224
+        },
+        "bounds": {
+          "lat_min": -41.30055,
+          "lat_max": -1.28914,
+          "lon_min": 106.44172,
+          "lon_max": 178.90079
+        },
+        "spread": {
+          "lat_std": 3.4679431920900736,
+          "lon_std": 5.686609272369331
+        },
+        "size": 2051,
+        "density": 0.7074390819465539,
+        "primary_region": "Australia"
+      },
+      "cluster_1": {
+        "centroid": {
+          "latitude": -18.697725230680508,
+          "longitude": 137.20053933967705
+        },
+        "bounds": {
+          "lat_min": -41.84391,
+          "lat_max": 31.02181,
+          "lon_min": 101.01346,
+          "lon_max": 179.53162
+        },
+        "spread": {
+          "lat_std": 8.669312055306875,
+          "lon_std": 12.182436622746103
+        },
+        "size": 3468,
+        "density": 0.6061578228268776,
+        "primary_region": "Australia"
+      },
+      "cluster_5": {
+        "centroid": {
+          "latitude": 25.535482971698112,
+          "longitude": 105.42896116745283
+        },
+        "bounds": {
+          "lat_min": -37.00002,
+          "lat_max": 49.99242,
+          "lon_min": 70.00059,
+          "lon_max": 149.27409
+        },
+        "spread": {
+          "lat_std": 16.070659492972993,
+          "lon_std": 19.2428426335786
+        },
+        "size": 1696,
+        "density": 0.24593271397507885,
+        "primary_region": "East Asia (China/Japan/Korea)"
+      },
+      "cluster_4": {
+        "centroid": {
+          "latitude": -19.140930956826136,
+          "longitude": 135.597587672112
+        },
+        "bounds": {
+          "lat_min": -42.72254,
+          "lat_max": 44.23642,
+          "lon_min": 86.97525,
+          "lon_max": 177.95583
+        },
+        "spread": {
+          "lat_std": 7.220136768982381,
+          "lon_std": 10.73627496543576
+        },
+        "size": 1714,
+        "density": 0.21664455553664125,
+        "primary_region": "Australia"
+      },
+      "cluster_2": {
+        "centroid": {
+          "latitude": -16.697940015592515,
+          "longitude": 129.68724901767152
+        },
+        "bounds": {
+          "lat_min": -35.61396,
+          "lat_max": 17.04725,
+          "lon_min": 76.65813,
+          "lon_max": 179.53734
+        },
+        "spread": {
+          "lat_std": 2.9091783073439292,
+          "lon_std": 7.438765104037405
+        },
+        "size": 1924,
+        "density": 0.3551293882505897,
+        "primary_region": "Australia"
+      },
+      "cluster_7": {
+        "centroid": {
+          "latitude": 32.57655177718832,
+          "longitude": 116.50425062776306
+        },
+        "bounds": {
+          "lat_min": -29.36464,
+          "lat_max": 48.06068,
+          "lon_min": 71.11365,
+          "lon_max": 152.72293
+        },
+        "spread": {
+          "lat_std": 9.103547443251285,
+          "lon_std": 9.522523628342318
+        },
+        "size": 1131,
+        "density": 0.1789946496307992,
+        "primary_region": "East Asia (China/Japan/Korea)"
+      },
+      "cluster_6": {
+        "centroid": {
+          "latitude": 32.76682158347676,
+          "longitude": 92.19751917383822
+        },
+        "bounds": {
+          "lat_min": 5.22594,
+          "lat_max": 49.64487,
+          "lon_min": 74.87203,
+          "lon_max": 120.37954
+        },
+        "spread": {
+          "lat_std": 10.673756738925514,
+          "lon_std": 9.54650682946808
+        },
+        "size": 581,
+        "density": 0.28742528210490953,
+        "primary_region": "India/Central Asia"
+      }
+    },
+    "temporal_analysis": {
+      "cluster_0": {
+        "time_span": {
+          "start_date": "2025-09-04 02:09:00",
+          "end_date": "2025-09-06 16:07:00"
+        },
+        "hourly_distribution": {
+          "5": "819",
+          "3": "690",
+          "16": "371",
+          "15": "304",
+          "4": "168",
+          "14": "38",
+          "18": "22",
+          "6": "13",
+          "7": "4",
+          "2": "3",
+          "1": "2",
+          "20": "1"
+        },
+        "daily_distribution": {
+          "3": "2173",
+          "4": "176",
+          "5": "86"
+        },
+        "peak_activity": {
+          "hour": 5,
+          "day": 3
+        }
+      },
+      "cluster_3": {
+        "time_span": {
+          "start_date": "2025-09-04 02:09:00",
+          "end_date": "2025-09-06 16:09:00"
+        },
+        "hourly_distribution": {
+          "16": "1934",
+          "3": "40",
+          "14": "25",
+          "15": "16",
+          "18": "12",
+          "4": "9",
+          "5": "9",
+          "1": "4",
+          "2": "1",
+          "13": "1"
+        },
+        "daily_distribution": {
+          "4": "1092",
+          "3": "741",
+          "5": "218"
+        },
+        "peak_activity": {
+          "hour": 16,
+          "day": 4
+        }
+      },
+      "cluster_1": {
+        "time_span": {
+          "start_date": "2025-09-04 02:11:00",
+          "end_date": "2025-09-06 16:07:00"
+        },
+        "hourly_distribution": {
+          "5": "1190",
+          "3": "891",
+          "4": "563",
+          "14": "461",
+          "16": "174",
+          "15": "89",
+          "18": "37",
+          "6": "29",
+          "1": "17",
+          "12": "7",
+          "7": "5",
+          "13": "4",
+          "2": "1"
+        },
+        "daily_distribution": {
+          "4": "1390",
+          "5": "1322",
+          "3": "756"
+        },
+        "peak_activity": {
+          "hour": 5,
+          "day": 4
+        }
+      },
+      "cluster_5": {
+        "time_span": {
+          "start_date": "2025-09-04 03:51:00",
+          "end_date": "2025-09-06 16:05:00"
+        },
+        "hourly_distribution": {
+          "5": "615",
+          "7": "245",
+          "8": "122",
+          "21": "108",
+          "4": "106",
+          "16": "106",
+          "6": "101",
+          "18": "95",
+          "3": "68",
+          "20": "59",
+          "17": "32",
+          "15": "32",
+          "9": "3",
+          "14": "2",
+          "22": "2"
+        },
+        "daily_distribution": {
+          "3": "676",
+          "4": "575",
+          "5": "445"
+        },
+        "peak_activity": {
+          "hour": 5,
+          "day": 3
+        }
+      },
+      "cluster_4": {
+        "time_span": {
+          "start_date": "2025-09-04 03:51:00",
+          "end_date": "2025-09-06 16:09:00"
+        },
+        "hourly_distribution": {
+          "16": "638",
+          "3": "423",
+          "5": "351",
+          "4": "162",
+          "14": "99",
+          "18": "20",
+          "15": "13",
+          "6": "4",
+          "1": "3",
+          "12": "1"
+        },
+        "daily_distribution": {
+          "5": "1051",
+          "4": "517",
+          "3": "146"
+        },
+        "peak_activity": {
+          "hour": 16,
+          "day": 5
+        }
+      },
+      "cluster_2": {
+        "time_span": {
+          "start_date": "2025-09-04 03:51:00",
+          "end_date": "2025-09-06 16:09:00"
+        },
+        "hourly_distribution": {
+          "5": "872",
+          "4": "797",
+          "3": "106",
+          "16": "103",
+          "14": "15",
+          "15": "9",
+          "12": "7",
+          "1": "7",
+          "13": "5",
+          "7": "1",
+          "21": "1",
+          "6": "1"
+        },
+        "daily_distribution": {
+          "5": "836",
+          "4": "601",
+          "3": "487"
+        },
+        "peak_activity": {
+          "hour": 5,
+          "day": 5
+        }
+      },
+      "cluster_7": {
+        "time_span": {
+          "start_date": "2025-09-04 04:14:00",
+          "end_date": "2025-09-06 16:05:00"
+        },
+        "hourly_distribution": {
+          "17": "446",
+          "18": "440",
+          "5": "126",
+          "16": "46",
+          "3": "38",
+          "7": "10",
+          "6": "9",
+          "4": "7",
+          "21": "4",
+          "20": "2",
+          "15": "2",
+          "8": "1"
+        },
+        "daily_distribution": {
+          "4": "592",
+          "3": "468",
+          "5": "71"
+        },
+        "peak_activity": {
+          "hour": 17,
+          "day": 4
+        }
+      },
+      "cluster_6": {
+        "time_span": {
+          "start_date": "2025-09-04 18:13:00",
+          "end_date": "2025-09-05 19:45:00"
+        },
+        "hourly_distribution": {
+          "19": "577",
+          "20": "3",
+          "18": "1"
+        },
+        "daily_distribution": {
+          "4": "378",
+          "3": "203"
+        },
+        "peak_activity": {
+          "hour": 19,
+          "day": 4
+        }
+      }
+    },
+    "intensity_analysis": {
+      "cluster_0": {
+        "brightness": {
+          "mean": 332.31335934291576,
+          "median": 335.09,
+          "std": 18.456039229112253,
+          "min": 295.0,
+          "max": 367.0
+        },
+        "confidence": {
+          "mean": 60.92813141683778,
+          "distribution": {
+            "60": "2322",
+            "80": "113"
+          }
+        },
+        "frp": {
+          "mean": 7.652718685831622,
+          "median": 4.16,
+          "std": 14.254033608688637
+        },
+        "intensity_category": "Medium Intensity"
+      },
+      "cluster_3": {
+        "brightness": {
+          "mean": 317.4471818625061,
+          "median": 312.12,
+          "std": 15.972480698500878,
+          "min": 295.18,
+          "max": 367.0
+        },
+        "confidence": {
+          "mean": 60.36079960994637,
+          "distribution": {
+            "60": "2014",
+            "80": "37"
+          }
+        },
+        "frp": {
+          "mean": 3.8617113603120434,
+          "median": 1.69,
+          "std": 8.500146113324524
+        },
+        "intensity_category": "Medium Intensity"
+      },
+      "cluster_1": {
+        "brightness": {
+          "mean": 336.3384371395617,
+          "median": 339.45500000000004,
+          "std": 18.536757172267176,
+          "min": 295.06,
+          "max": 367.0
+        },
+        "confidence": {
+          "mean": 61.5916955017301,
+          "distribution": {
+            "60": "3192",
+            "80": "276"
+          }
+        },
+        "frp": {
+          "mean": 9.929140715109572,
+          "median": 5.44,
+          "std": 17.366587567117836
+        },
+        "intensity_category": "Medium Intensity"
+      },
+      "cluster_5": {
+        "brightness": {
+          "mean": 330.11056603773585,
+          "median": 332.9,
+          "std": 15.105762737445675,
+          "min": 295.03,
+          "max": 367.0
+        },
+        "confidence": {
+          "mean": 60.33018867924528,
+          "distribution": {
+            "60": "1668",
+            "80": "28"
+          }
+        },
+        "frp": {
+          "mean": 5.132853773584905,
+          "median": 3.51,
+          "std": 8.325455721587591
+        },
+        "intensity_category": "Medium Intensity"
+      },
+      "cluster_4": {
+        "brightness": {
+          "mean": 330.1886056009335,
+          "median": 334.63,
+          "std": 18.006972658182804,
+          "min": 295.0,
+          "max": 367.0
+        },
+        "confidence": {
+          "mean": 60.688448074679116,
+          "distribution": {
+            "60": "1655",
+            "80": "59"
+          }
+        },
+        "frp": {
+          "mean": 7.48031505250875,
+          "median": 4.165,
+          "std": 12.751940805088488
+        },
+        "intensity_category": "Medium Intensity"
+      },
+      "cluster_2": {
+        "brightness": {
+          "mean": 350.3404417879418,
+          "median": 350.835,
+          "std": 13.943961222081487,
+          "min": 295.05,
+          "max": 367.0
+        },
+        "confidence": {
+          "mean": 64.82328482328482,
+          "distribution": {
+            "60": "1460",
+            "80": "464"
+          }
+        },
+        "frp": {
+          "mean": 24.269407484407488,
+          "median": 11.055,
+          "std": 38.69640296400753
+        },
+        "intensity_category": "Medium Intensity"
+      },
+      "cluster_7": {
+        "brightness": {
+          "mean": 313.4063041556145,
+          "median": 309.39,
+          "std": 12.83246882182691,
+          "min": 295.2,
+          "max": 354.86
+        },
+        "confidence": {
+          "mean": 60.0,
+          "distribution": {
+            "60": "1131"
+          }
+        },
+        "frp": {
+          "mean": 2.1824049513704686,
+          "median": 1.61,
+          "std": 2.8885782488252034
+        },
+        "intensity_category": "Medium Intensity"
+      },
+      "cluster_6": {
+        "brightness": {
+          "mean": 307.4739414802065,
+          "median": 305.74,
+          "std": 9.658634592765663,
+          "min": 295.01,
+          "max": 347.11
+        },
+        "confidence": {
+          "mean": 60.0,
+          "distribution": {
+            "60": "581"
+          }
+        },
+        "frp": {
+          "mean": 1.7212048192771083,
+          "median": 1.36,
+          "std": 1.7552158510675557
+        },
+        "intensity_category": "Low to Moderate Intensity"
+      }
+    },
+    "regional_analysis": {
+      "cluster_0": {
+        "regional_distribution": {
+          "Australia": "1649",
+          "Southeast Asia": "513",
+          "Other Asia-Pacific": "269",
+          "New Zealand": "2",
+          "East Asia (China/Japan/Korea)": "1",
+          "India/Central Asia": "1"
+        },
+        "dominant_region": "Australia",
+        "region_diversity": 6,
+        "cross_regional": true
+      },
+      "cluster_3": {
+        "regional_distribution": {
+          "Australia": "1988",
+          "Southeast Asia": "51",
+          "Other Asia-Pacific": "11",
+          "New Zealand": "1"
+        },
+        "dominant_region": "Australia",
+        "region_diversity": 4,
+        "cross_regional": true
+      },
+      "cluster_1": {
+        "regional_distribution": {
+          "Australia": "2764",
+          "Southeast Asia": "507",
+          "Other Asia-Pacific": "186",
+          "New Zealand": "10",
+          "East Asia (China/Japan/Korea)": "1"
+        },
+        "dominant_region": "Australia",
+        "region_diversity": 5,
+        "cross_regional": true
+      },
+      "cluster_5": {
+        "regional_distribution": {
+          "East Asia (China/Japan/Korea)": "768",
+          "India/Central Asia": "368",
+          "Southeast Asia": "321",
+          "Other Asia-Pacific": "159",
+          "Northern Asia/Siberia": "45",
+          "Northeast Asia/Russia": "31",
+          "Australia": "4"
+        },
+        "dominant_region": "East Asia (China/Japan/Korea)",
+        "region_diversity": 7,
+        "cross_regional": true
+      },
+      "cluster_4": {
+        "regional_distribution": {
+          "Australia": "1512",
+          "Southeast Asia": "130",
+          "Other Asia-Pacific": "72"
+        },
+        "dominant_region": "Australia",
+        "region_diversity": 3,
+        "cross_regional": true
+      },
+      "cluster_2": {
+        "regional_distribution": {
+          "Australia": "1866",
+          "Other Asia-Pacific": "29",
+          "Southeast Asia": "28",
+          "India/Central Asia": "1"
+        },
+        "dominant_region": "Australia",
+        "region_diversity": 4,
+        "cross_regional": true
+      },
+      "cluster_7": {
+        "regional_distribution": {
+          "East Asia (China/Japan/Korea)": "1026",
+          "Southeast Asia": "57",
+          "Northeast Asia/Russia": "21",
+          "Other Asia-Pacific": "14",
+          "India/Central Asia": "9",
+          "Australia": "3",
+          "Northern Asia/Siberia": "1"
+        },
+        "dominant_region": "East Asia (China/Japan/Korea)",
+        "region_diversity": 7,
+        "cross_regional": true
+      },
+      "cluster_6": {
+        "regional_distribution": {
+          "India/Central Asia": "273",
+          "Other Asia-Pacific": "171",
+          "East Asia (China/Japan/Korea)": "132",
+          "Northern Asia/Siberia": "5"
+        },
+        "dominant_region": "India/Central Asia",
+        "region_diversity": 4,
+        "cross_regional": true
+      }
+    },
+    "cluster_summary": {
+      "total_clusters": 8,
+      "total_points": 15000,
+      "noise_points": 0,
+      "cluster_sizes": {
+        "1": "3468",
+        "0": "2435",
+        "3": "2051",
+        "2": "1924",
+        "4": "1714",
+        "5": "1696",
+        "7": "1131",
+        "6": "581"
+      },
+      "overview": {
+        "cluster_0": {
+          "description": "Cluster 0: Australia region fires",
+          "size": 2435,
+          "centroid": "(-15.70°, 134.99°)",
+          "avg_intensity": "332.3K brightness, 60.9% confidence",
+          "characteristics": "Large fire cluster with high-intensity fires"
+        },
+        "cluster_3": {
+          "description": "Cluster 3: Australia region fires",
+          "size": 2051,
+          "centroid": "(-16.31°, 129.74°)",
+          "avg_intensity": "317.4K brightness, 60.4% confidence",
+          "characteristics": "Large fire cluster with moderate-intensity fires"
+        },
+        "cluster_1": {
+          "description": "Cluster 1: Australia region fires",
+          "size": 3468,
+          "centroid": "(-18.70°, 137.20°)",
+          "avg_intensity": "336.3K brightness, 61.6% confidence",
+          "characteristics": "Large fire cluster with high-intensity fires"
+        },
+        "cluster_5": {
+          "description": "Cluster 5: East Asia (China/Japan/Korea) region fires",
+          "size": 1696,
+          "centroid": "(25.54°, 105.43°)",
+          "avg_intensity": "330.1K brightness, 60.3% confidence",
+          "characteristics": "Large fire cluster with high-intensity fires"
+        },
+        "cluster_4": {
+          "description": "Cluster 4: Australia region fires",
+          "size": 1714,
+          "centroid": "(-19.14°, 135.60°)",
+          "avg_intensity": "330.2K brightness, 60.7% confidence",
+          "characteristics": "Large fire cluster with high-intensity fires"
+        },
+        "cluster_2": {
+          "description": "Cluster 2: Australia region fires",
+          "size": 1924,
+          "centroid": "(-16.70°, 129.69°)",
+          "avg_intensity": "350.3K brightness, 64.8% confidence",
+          "characteristics": "Large fire cluster with high-intensity fires"
+        },
+        "cluster_7": {
+          "description": "Cluster 7: East Asia (China/Japan/Korea) region fires",
+          "size": 1131,
+          "centroid": "(32.58°, 116.50°)",
+          "avg_intensity": "313.4K brightness, 60.0% confidence",
+          "characteristics": "Large fire cluster with low-intensity fires"
+        },
+        "cluster_6": {
+          "description": "Cluster 6: India/Central Asia region fires",
+          "size": 581,
+          "centroid": "(32.77°, 92.20°)",
+          "avg_intensity": "307.5K brightness, 60.0% confidence",
+          "characteristics": "Large fire cluster with low-intensity fires"
+        }
+      }
+    }
+  },
+  "processing_times": {}
+}
