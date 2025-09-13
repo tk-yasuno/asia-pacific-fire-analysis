@@ -1,0 +1,127 @@
+{
+  "total_documents": 150,
+  "source_analysis": {
+    "Forestry_Service": {
+      "count": 75,
+      "avg_text_length": 94.62666666666667,
+      "unique_locations": 21
+    },
+    "Emergency_Management": {
+      "count": 75,
+      "avg_text_length": 94.06666666666666,
+      "unique_locations": 23
+    }
+  },
+  "sample_data": [
+    {
+      "text": "Forestry officials coordinate Santa Fe National Forest wildfire suppression efforts spanning 500 acres.",
+      "sentiment": "中立",
+      "confidence": 0.6,
+      "location": "Santa Fe National Forest",
+      "fire_type": "ground fire",
+      "date": "2024-09-17",
+      "source": "Forestry_Service",
+      "data_type": "real_public_data",
+      "processing_timestamp": "2025-09-12 22:40:01",
+      "original_metadata": {
+        "location": "Santa Fe National Forest",
+        "fire_type": "ground fire",
+        "acres": 500,
+        "date": "2024-09-17",
+        "source": "Forestry_Service",
+        "agency": "National Forest Service",
+        "report_type": "operational_update",
+        "language": "en",
+        "confidence": 0.92
+      }
+    },
+    {
+      "text": "Disaster declaration requested for Maine Woodlands wildfire impact zone covering 4000 acres.",
+      "sentiment": "中立",
+      "confidence": 0.6,
+      "location": "Maine Woodlands",
+      "fire_type": "ridge_fire",
+      "date": "2024-12-24",
+      "source": "Emergency_Management",
+      "data_type": "real_public_data",
+      "processing_timestamp": "2025-09-12 22:40:01",
+      "original_metadata": {
+        "location": "Maine Woodlands",
+        "fire_type": "ridge_fire",
+        "acres": 4000,
+        "date": "2024-12-24",
+        "source": "Emergency_Management",
+        "agency": "Emergency Management Agency",
+        "report_type": "emergency_alert",
+        "language": "en",
+        "confidence": 0.99
+      }
+    },
+    {
+      "text": "Disaster relief operations begin in Maine Woodlands after ridge acre 1000 fire damage.",
+      "sentiment": "悲しみ",
+      "confidence": 0.75,
+      "location": "Maine Woodlands",
+      "fire_type": "ridge_fire",
+      "date": "2024-12-20",
+      "source": "Emergency_Management",
+      "data_type": "real_public_data",
+      "processing_timestamp": "2025-09-12 22:40:01",
+      "original_metadata": {
+        "location": "Maine Woodlands",
+        "fire_type": "ridge_fire",
+        "acres": 1000,
+        "date": "2024-12-20",
+        "source": "Emergency_Management",
+        "agency": "Emergency Management Agency",
+        "report_type": "emergency_alert",
+        "language": "en",
+        "confidence": 0.99
+      }
+    },
+    {
+      "text": "Forest health assessment reveals spot fire impact across 750 acres in San Bernardino National Forest.",
+      "sentiment": "中立",
+      "confidence": 0.6,
+      "location": "San Bernardino National Forest",
+      "fire_type": "spot fire",
+      "date": "2024-02-02",
+      "source": "Forestry_Service",
+      "data_type": "real_public_data",
+      "processing_timestamp": "2025-09-12 22:40:01",
+      "original_metadata": {
+        "location": "San Bernardino National Forest",
+        "fire_type": "spot fire",
+        "acres": 750,
+        "date": "2024-02-02",
+        "source": "Forestry_Service",
+        "agency": "National Forest Service",
+        "report_type": "operational_update",
+        "language": "en",
+        "confidence": 0.93
+      }
+    },
+    {
+      "text": "Evacuation orders issued for Oklahoma Plains residents due to forest fire spanning 1000 acres.",
+      "sentiment": "恐怖",
+      "confidence": 0.85,
+      "location": "Oklahoma Plains",
+      "fire_type": "forest_fire",
+      "date": "2024-02-26",
+      "source": "Emergency_Management",
+      "data_type": "real_public_data",
+      "processing_timestamp": "2025-09-12 22:40:01",
+      "original_metadata": {
+        "location": "Oklahoma Plains",
+        "fire_type": "forest_fire",
+        "acres": 1000,
+        "date": "2024-02-26",
+        "source": "Emergency_Management",
+        "agency": "Emergency Management Agency",
+        "report_type": "emergency_alert",
+        "language": "en",
+        "confidence": 0.9700000000000001
+      }
+    }
+  ]
+}

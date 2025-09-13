@@ -1,0 +1,28 @@
+{
+  "test_timestamp": "2025-09-12T22:29:36.771461",
+  "template_data_results": {
+    "status": "success",
+    "total_documents": 3600,
+    "sources": {
+      "Forestry_Service": 2400,
+      "Emergency_Management": 1200
+    },
+    "sentiment_distribution": {
+      "中立": 2240,
+      "恐怖": 960,
+      "希望": 160,
+      "悲しみ": 240
+    },
+    "text_length_stats": {
+      "mean": 109.14166666666667,
+      "min": 80,
+      "max": 168,
+      "total_texts": 3600
+    }
+  },
+  "real_data_results": {
+    "status": "skipped",
+    "reason": "MAP_KEY not configured"
+  },
+  "comparison_analysis": {}
+}

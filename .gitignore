@@ -1,0 +1,105 @@
+# Asia-Pacific Fire Detection Analysis - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific data directories
+data_firms_*/
+outputs/
+cache/
+temp/
+logs/
+
+# Generated analysis files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+embeddings.npy
+*.pt
+*.pth
+
+# Configuration files with sensitive data
+config_*_private.json
+*_api_key.json
+secrets.json
+
+# Log files
+*.log
+*.out
+*.err
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+
+# Large model files (optional - uncomment if you want to exclude)
+# *.bin
+# *.safetensors
+# models/
+
+# Backup directories
+0_BAKLog/
+backup/
+bak/
+
+# Windows
+*.exe
+*.msi
+*.msm
+*.msp
+
+# macOS
+.AppleDouble
+.LSOverride

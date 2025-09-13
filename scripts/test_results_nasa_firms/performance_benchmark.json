@@ -1,0 +1,29 @@
+{
+  "size_100": {
+    "collection_time": 1.5419495105743408,
+    "processing_time": 0.0,
+    "total_time": 1.5419495105743408,
+    "documents_collected": 100,
+    "documents_processed": 100,
+    "collection_speed": 64.8529665298524,
+    "processing_speed": 0
+  },
+  "size_500": {
+    "collection_time": 1.5424036979675293,
+    "processing_time": 0.004462003707885742,
+    "total_time": 1.546865701675415,
+    "documents_collected": 500,
+    "documents_processed": 500,
+    "collection_speed": 324.16934727196565,
+    "processing_speed": 112057.28025647876
+  },
+  "size_1000": {
+    "collection_time": 1.53309965133667,
+    "processing_time": 0.014412403106689453,
+    "total_time": 1.5475120544433594,
+    "documents_collected": 1000,
+    "documents_processed": 1000,
+    "collection_speed": 652.2733203468711,
+    "processing_speed": 69384.68155500414
+  }
+}
